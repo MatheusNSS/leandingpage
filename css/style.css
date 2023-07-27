@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Open+Sans:wght@300;400;500;600;800&display=swap');
+
+
+*{margin:0; padding:0; border:0 ;box-sizing: border-box; font-family: 'Open Sans', sans-serif;}
+
+body{
+    background-color: #F9E514;
+}
+
+.menu{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+.menu .menu_container{
+    background-color:#fff;
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+    /* border: 1px solid ;  */
+    box-shadow: 1px 1px inset rgb(179, 179, 179);
+}
+
+#u{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.menu .menu_container span{
+    font-size: 30px;
+}
+
+.menu ul li{
+    display: inline;
+    margin: 10px;
+    
+}
+
+.container{
+    /* border: 1px solid #fff; */
+    display: flex;
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: start;
+    position: absolute;
+    bottom: 0;
+   
+    
+}
+
+
+.text h1{
+    font-weight: 300;
+    font-size: px;
+}
+
+.text h1 span{
+    font-weight: 800;
+}
+
+.text h2{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+
+.list ul li{
+    list-style: none;
+    margin-top: 5px;    
+}
+
+.list span{
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.btn_area button{
+    /* border: #fff solid 1px; */
+
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    border: 1px solid;
+    background-color: #F9E514;
+}
+button span.material-symbols-outlined{
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+
+
+img{
+
+    /* border: 1px solid; */
+    width: 500px;
+    
+}
+
+
